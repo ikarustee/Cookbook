@@ -46,9 +46,9 @@ h3 {
 }
 /* Navigation ================ */
 body {
-  margin: 0;
+  /* margin: 0;
   display: flex;
-  justify-content: center;
+  justify-content: center; */
 }
 
 a {
@@ -59,14 +59,14 @@ a {
   vertical-align: middle;
   height: 30px;
 }
-#nav {
-  position: absolute;
-}
+
 nav {
   font-family: "Raleway";
-  position: relative;
-  margin-bottom: 80px;
+  top:20px;
+  width:100%;
   z-index: 99;
+  position: -webkit-sticky;
+	position: sticky;
 }
 nav ul {
   list-style: none;
@@ -149,7 +149,7 @@ nav ul li ul li {
 /* Containter ======================== */
 header {
   background-color: var(--yellow-green);
-  background-image: url("/src/img/greek-salad.jpeg");
+  background-image: url("./img/greek-salad.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-blend-mode: multiply;
