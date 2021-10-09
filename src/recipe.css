@@ -57,19 +57,20 @@ a {
 
 nav {
   font-family: "Raleway";
-  top:20px;
-  width:100%;
+  background: var(--yellow-green);
+  top: 0;
+  width: calc(100% - 60px);
   max-width: 1040px;
-  margin:0 auto;
+  height: 40px;
+  margin: 0 auto;
   z-index: 99;
   position: -webkit-sticky;
-	position: sticky;
+  position: sticky;
 }
 nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
-  background: var(--emerald);
 }
 
 nav li:hover {
@@ -138,15 +139,9 @@ nav ul li ul li {
 .list-group-item.active {
   background-color: var(--davys-grey);
 }
-/* @media screen and (min-width: 768px) {
-  .ingredients ul li span {
-    flex-basis: 30%;
-  }
-} */
 /* Containter ======================== */
 header {
   background-color: var(--yellow-green);
-  background-image: url("./img/greek-salad.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-blend-mode: multiply;
@@ -164,7 +159,7 @@ main {
   margin: 0 auto;
   width: calc(100% - 60px);
   max-width: 1040px;
-  top:40px;
+  top: 0;
 }
 .recipe-details {
   border: 4px var(--yellow-green) solid;
@@ -182,14 +177,13 @@ main {
 .recipe-details span > span {
   font-weight: 700;
 }
-@media (min-width:768px) {
-  
+@media (min-width: 768px) {
   .recipe {
     display: flex;
     flex-flow: row wrap;
     gap: 40px;
   }
-  .instructions, 
+  .instructions,
   .ingredients {
     flex-basis: calc(50% - 20px);
   }
