@@ -44,6 +44,11 @@ h3 {
   font-size: 16px;
   line-height: 1.5;
 }
+header,
+main,
+main li {
+  font-family: "Merriweather", serif;
+}
 /* Navigation ================ */
 
 a {
@@ -72,11 +77,6 @@ nav ul {
   margin: 0;
   padding: 0;
 }
-
-nav li:hover {
-  background: black;
-}
-
 nav li {
   display: block;
   transition-duration: 0.5s;
@@ -86,6 +86,9 @@ nav li {
   height: 40px;
   float: left;
   padding-top: 10px;
+}
+nav li:hover {
+  background: black;
 }
 .dropdown {
   position: relative;
@@ -203,12 +206,23 @@ main {
   }
 }
 button {
+  background-color: var(--emerald);
+  border: 2px solid var(--emerald) !important;
+  color: white;
+  font-family: "Raleway", sans-serif;
   min-width: 100px;
   border: 0;
   margin: 3em auto;
   font-size: 24px;
   padding: 12px 24px;
-  box-sizing: content-box;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  transition: all 250ms ease-in-out;
+}
+button:hover {
+  background-color: white;
+  border: 2px solid var(--emerald);
+  color: var(--emerald);
 }
 footer {
   margin: 0 auto;
