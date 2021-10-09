@@ -1,6 +1,6 @@
 :root {
   --tea-green: #e4ffb9;
-  --cultured: #fafafa;
+  --cultured: #f9f9f9;
   --yellow-green: #94ce34;
   --emerald: #38ba61;
   --davys-grey: #5c5c5c;
@@ -135,6 +135,8 @@ main ol li {
   padding-left: 20px;
 }
 .ingredients ul {
+  background-color: white;
+  font-size: 14px;
   list-style-type: none;
   padding-left: 0;
   width: 100%;
@@ -142,7 +144,7 @@ main ol li {
 }
 .ingredients ul li {
   margin: 0;
-  padding: 12px 0 12px 8px;
+  padding: 12px 8px;
 }
 .ingredients ul li:nth-child(even) {
   background-color: var(--tea-green);
@@ -161,13 +163,16 @@ main ol li {
 }
 /* Containter ======================== */
 main {
+  background-color: var(--cultured);
   display: flex;
   flex-flow: column wrap;
   position: relative;
   margin: 0 auto;
+  padding: 30px;
   width: calc(100% - 60px);
   max-width: 900px;
-  top: 20px;
+  box-sizing: border-box;
+  top: 0;
 }
 header {
   background-color: var(--yellow-green);
@@ -182,6 +187,7 @@ header {
   text-align: center;
 }
 .recipe-details {
+  background-color: white;
   border: 4px var(--yellow-green) solid;
   border-top: 0;
   font-size: 14px;
@@ -209,7 +215,8 @@ header {
   }
 }
 .recipe-image {
-  text-align: center;
+  display: block;
+  margin: 0 auto;
 }
 .recipe-image img {
   width: 100%;
@@ -247,6 +254,6 @@ footer {
   margin: 0 auto;
   padding: 10px 0;
   width: calc(100% - 60px);
-  max-width: 1040px;
+  max-width: 900px;
   text-align: center;
 }
