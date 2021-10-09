@@ -12,7 +12,7 @@
 <body>
     <nav>
         <ul>
-            <li><a href="#">Starters</a>
+            <li><a href="../index.html">Starters</a>
                 <ul class="dropdown">
                     <li><a href="./greek_salad.html">Greek Salad</a></li>
                     <li><a href="#">Recipe 2</a></li>
@@ -47,7 +47,7 @@
         </ul>
     </nav>
     <main>
-        <header>
+        <header style="background-image: url('../src/img/Tom-Collins.jpeg');">
                 <h1>Tom Collins Cocktail</h1>
                 <h2>Best easy recipe</h2>
         </header>
@@ -56,31 +56,33 @@
             <span class="cook-time"><span>Cook time: </span>0 minutes </span>
             <span class="total-time"><span>Total time: </span>5 minutes</span>
         </div>
-        <div class="instructions">
-            <h3>Instructions</h3>
-            <ol>
-                <li>Add the gin, syrup and lemon juice to a cocktail shaker with 4 ice cubes. Shake well until chilled.
-                </li>
-                <li>Strain the liquid into an ice filled glass, and top off the glass with soda water. Garnish with a lemon wheel and cocktail cherry.
-                </li>
-            </ol>
-            <div class="recipe-image">
-                <img src="./src/img/greek-salad.jpeg" alt="">
+        <div class="recipe">
+            <div class="instructions">
+                <h3>Instructions</h3>
+                <ol>
+                    <li>Add the gin, syrup and lemon juice to a cocktail shaker with 4 ice cubes. Shake well until chilled.
+                    </li>
+                    <li>Strain the liquid into an ice filled glass, and top off the glass with soda water. Garnish with a lemon wheel and cocktail cherry.
+                    </li>
+                </ol>
+                <div class="recipe-image">
+                    <img src="../src/img/Tom-Collins.jpeg" alt="">
+                </div>
             </div>
-        </div>
-        <div class="ingredients">
-            <h3>Ingredients</h3>
-            <ul>
-                <li><span>2 ounces (4 tablespoons) </span>dry gin</li>
-                <li><span>3/4 to 1 ounce (1 1/2 to 2 tablespoons) </span>simple syrup or maple syrup</li>
-                <li><span>1 ounce (2 tablespoons) </span>lemon juice</li>
-                <li><span></span>Ice</li>
-                <li><span></span>For the garnish: maraschino cherry, lemon wheel</li>
-            </ul>
-        </div>
-            <button name="share" type="button">Share!</button>
-        </section>
+            <div class="ingredients">
+                <h3>Ingredients</h3>
+                <ul>
+                    <li><span>2 ounces (4 tablespoons) </span>dry gin</li>
+                    <li><span>3/4 to 1 ounce (1 1/2 to 2 tablespoons) </span>simple syrup or maple syrup</li>
+                    <li><span>1 ounce (2 tablespoons) </span>lemon juice</li>
+                    <li><span></span>Ice</li>
+                    <li><span></span>For the garnish: maraschino cherry, lemon wheel</li>
+                </ul>
+            </div>
+        </div>    
+            <button id="share" name="share" type="button">Share!</button>
     </main>
+    <footer><h3>Just another recipe page</h3></footer>
     <script src="../src/index.js"></script>
 </body>
 </html>
