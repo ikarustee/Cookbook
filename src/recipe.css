@@ -7,7 +7,7 @@
 }
 /* Reset ======================== */
 body {
-  margin:0;
+  margin: 0;
 }
 /* Typography ======================== */
 h1,
@@ -38,8 +38,12 @@ h3 {
   font-size: 24px;
   font-weight: 700;
   letter-spacing: 1px;
-  margin: 1em 0 0;
+  margin: 1em 0 0.5em;
   text-transform: uppercase;
+}
+footer h3 {
+  color: var(--davys-grey);
+  font-weight: 300;
 }
 #description {
   font-family: "Merriweather", serif;
@@ -50,7 +54,7 @@ h3 {
 header,
 main {
   font-family: "Raleway", serif;
-  font-weight:300;
+  font-weight: 300;
 }
 /* Navigation ================ */
 a {
@@ -103,8 +107,8 @@ nav li:hover {
   z-index: -1;
 }
 .dropdown li {
-  height:auto;
-  padding:12px;
+  height: auto;
+  padding: 12px;
 }
 nav ul li:hover > ul,
 nav ul li:focus-within > ul,
@@ -120,6 +124,7 @@ nav ul li ul li {
 /* Lists ======================== */
 main ol li {
   font-family: "Raleway", serif;
+  line-height: 1.4;
   margin-bottom: 12px;
 }
 #description li {
@@ -238,8 +243,9 @@ button:hover {
   cursor: pointer;
 }
 footer {
+  background-color: var(--tea-green);
   margin: 0 auto;
-  padding: 40px 0;
+  padding: 10px 0;
   width: calc(100% - 60px);
   max-width: 1040px;
   text-align: center;
