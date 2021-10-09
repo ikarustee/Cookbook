@@ -230,8 +230,8 @@ header {
   }
 }
 button {
-  background-color: var(--emerald);
-  border: 2px solid var(--emerald) !important;
+  background-color: var(--yellow-green);
+  border: 2px solid var(--yellow-green) !important;
   color: white;
   font-family: "Raleway", sans-serif;
   min-width: 100px;
@@ -245,8 +245,8 @@ button {
 }
 button:hover {
   background-color: white;
-  border: 2px solid var(--emerald);
-  color: var(--emerald);
+  border: 2px solid var(--yellow-green);
+  color: var(--yellow-green);
   cursor: pointer;
 }
 footer {
