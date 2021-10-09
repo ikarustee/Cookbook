@@ -159,7 +159,7 @@ main {
   margin: 0 auto;
   width: calc(100% - 60px);
   max-width: 1040px;
-  top: 0;
+  top: 20px;
 }
 .recipe-details {
   border: 4px var(--yellow-green) solid;
