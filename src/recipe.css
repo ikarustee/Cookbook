@@ -163,12 +163,12 @@ main ol li {
 }
 /* Containter ======================== */
 main {
-  background-color: var(--cultured);
+  /* background-color: var(--cultured); */
   display: flex;
   flex-flow: column wrap;
   position: relative;
   margin: 0 auto;
-  padding: 30px;
+  padding: 0 0 30px;
   width: calc(100% - 60px);
   max-width: 900px;
   box-sizing: border-box;
@@ -216,7 +216,7 @@ header {
 }
 .recipe-image {
   display: block;
-  margin: 0 auto;
+  margin: 30px auto;
 }
 .recipe-image img {
   width: 100%;
